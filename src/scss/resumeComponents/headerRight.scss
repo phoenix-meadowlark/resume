@@ -1,0 +1,19 @@
+#headerRight {
+  grid-area: h-right;
+  align-items: center;
+  
+  background-color: $background-gray;
+
+  li {
+    margin: 0rem;
+  }
+
+  .contactPoints {
+    font-size: 1.125rem;
+    line-height: 1.4;
+
+    .contactInfo {
+      padding-left: 1rem;
+    }
+  }
+}

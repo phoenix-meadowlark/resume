@@ -1,0 +1,25 @@
+section {
+  line-height: $bodyLineHeight;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: $gap;
+
+  .sectionTitle {
+    font-family: $section-font;
+    font-size: $levelOne;
+    color: nth($pure, $primary);
+    padding: 0rem 0rem $indent 0rem;
+
+    border-bottom: $border-style;
+    box-sizing: border-box;
+  }
+
+  .subsectionTitle {
+    font-size: $levelThree;
+    font-weight: 400;
+  }
+
+  .note {
+    color: $fade;
+  }
+}

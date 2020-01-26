@@ -1,0 +1,158 @@
+// --- Initial Imports --------------------------------------------------
+@import 'normalize';
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600");
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:200,300,400,500,600");
+@import url("https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600");
+
+// --- Variables --------------------------------------------------
+$pure: #5fa55a #01b4bc #f6d51f #fa8925 #fa5457 #8f39ac;
+$primary: 2;
+$background-gray: #fafafa;
+
+$line-color: #c0c0c0;
+$border-style: 1px solid $line-color;
+$fade: #888;
+
+$shadow-width: 4px;
+$shadow-blur: 8px;
+$shadow-color: #0000000e;
+
+$global-margin: 1.3rem;
+$indent: .6rem;
+$gap: 1rem;
+$bodyLineHeight: 1.7rem;
+
+$levelZero: 2.3rem;
+$levelOne: 2rem;
+$levelTwo: 1.5rem;
+$levelThree: 1.25rem;
+$levelFour: 1.2rem;
+$levelFive: 1.0rem;
+
+$name-font: "Raleway";
+$section-font: "Raleway";
+$body-font: "Roboto";
+
+// --- Resets --------------------------------------------------
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: $line-color;
+  // text-underline-position: under;
+}
+
+p {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: #f2f2f2;
+  font-size: 12px;
+  font-family: $body-font;
+  font-weight: 300;
+}
+
+#resumeGrid {
+  margin: auto;
+  display: grid;
+  width: 8.5in;
+  min-height: 11in;
+  box-shadow: $shadow-width $shadow-width $shadow-blur 0px #00000030;
+  background-color: #fff;
+
+
+  grid-template-columns: 1fr 1.61803398875fr;
+  grid-template-areas:
+    "h-left h-right"
+    "b-left b-right";
+  grid-template-rows: 1fr 6.85410196625fr;
+  height: 100%;
+}
+
+.icon {
+  color: nth($pure, $primary);
+}
+
+.ensmall {
+  font-size: 0.5rem;
+}
+
+@import './resumeComponents/listStyles.scss';
+
+@import './resumeComponents/header.scss';
+@import './resumeComponents/headerLeft.scss';
+@import './resumeComponents/headerRight.scss';
+
+@import './resumeComponents/body.scss';
+@import './resumeComponents/bodyLeft.scss';
+@import './resumeComponents/bodyRight.scss';
+
+@import './resumeComponents/section.scss';
+@import './resumeComponents/skills.scss';
+@import './resumeComponents/affiliation.scss';
+
+@media only screen and (max-width: 816px) {
+  
+  #resumeGrid {
+    margin: auto;
+    display: grid;
+    width: 442px;
+    min-height: auto;
+    box-shadow: $shadow-width $shadow-width $shadow-blur 0px #00000030;
+    background-color: #fff;
+  
+    
+    grid-template-columns: 1fr;
+    grid-template-rows: 138px 138px;
+
+    grid-template-areas: "a"
+                         "b"
+                         "c"
+                         "d";
+    height: auto;
+  }
+
+  #headerLeft {
+    grid-area: a;
+  }
+  #headerRight {
+    grid-area: b;
+  }
+  #bodyLeft {
+    grid-area: d;
+    grid-template-rows: min-content;
+  }
+  #bodyRight {
+    grid-area: c;
+  }
+}
+
+@media only screen and (max-width: 441px) {
+  #resumeGrid {
+    width: auto;
+  }
+}
+
+// Scaling for an iPad pro (which I use to show my resume at fairs)
+$stretch: 1.2;
+@media only screen and (width: 1024px) and (height: 1264px) {
+  #resumeGrid {
+    transform: scale($stretch,$stretch);
+    transform-origin: top center;
+  }
+}

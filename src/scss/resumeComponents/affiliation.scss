@@ -1,0 +1,27 @@
+.affiliations {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: $gap;
+
+
+  display: grid;
+  grid-template-columns: auto;
+
+  .item-row {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .primary {
+    font-size: $levelThree;
+  }
+
+  .secondary {
+    font-size: $levelThree;
+    text-align: right;
+  }
+
+  .affiliationDescription {
+    margin: $indent 0rem 0rem 0rem;
+  }
+}

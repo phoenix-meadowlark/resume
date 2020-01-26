@@ -1,0 +1,16 @@
+.skills {
+  grid-template-columns: 1fr 1fr;
+
+  .sectionTitle {
+    grid-column: 1/-1;
+  }
+
+  .tools {
+    grid-column: 1/-1;
+  }
+
+  .separator {
+    color: $fade;
+  }
+}
+

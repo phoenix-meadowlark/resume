@@ -1,0 +1,27 @@
+#headerLeft {
+  grid-area: h-left;
+  z-index: 99;
+
+  background-color: nth($pure, $primary);
+  box-shadow: $shadow-width $shadow-width $shadow-blur -4px $shadow-color;
+
+  text-align: right;
+  font-family: $name-font;
+
+  .name {
+    font-size: $levelZero;
+    font-weight: 400;
+
+    .first {
+      color: #fff;
+    }
+
+    align-self: end;
+  }
+
+  .title {
+    color: #000;
+    line-height: 1.5rem;
+    font-size: $levelTwo + 0.01rem;
+  }
+}

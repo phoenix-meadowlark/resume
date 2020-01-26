@@ -1,0 +1,11 @@
+#bodyLeft {
+  grid-area: b-left;
+  background-color: $background-gray;
+
+  grid-template-rows: repeat(4, min-content) auto;
+  align-items: end;
+
+  .phrase {
+    border: none;
+  }
+}

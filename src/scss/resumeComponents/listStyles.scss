@@ -1,0 +1,47 @@
+ul {
+  padding: 0rem;
+  margin: 0rem;
+  list-style: none;
+}
+
+li {
+  font-size: 1.2rem;
+  margin-left: $indent;
+}
+
+.phraseList {
+  display: grid;
+  grid-gap: $indent;
+  line-height: 1.55rem;
+
+  .phrase {
+    border-left: $border-style;
+    // border-color: nth($pure, $primary);
+    margin: 0rem;
+    padding-left: $indent;
+  }
+
+  .primary {
+    margin: 0rem;
+  }
+
+  .secondary {
+    margin-top: 0.125rem;
+    font-size: 1rem;
+    color: $fade;
+    margin-left: $indent;
+  }
+}
+
+// .phrase:before {
+//   position: absolute;
+//   content: ' ';
+
+//   // width: .2rem;
+//   height: 1.15rem;
+//   margin: -.05rem -.5rem;
+  
+//   border-width: 1px 0 0 2px;
+//   border-color: #c0c0c0;
+//   border-style: solid;
+// }
