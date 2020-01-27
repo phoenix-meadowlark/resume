@@ -14,11 +14,11 @@ export default {
       "content": "phoenix@cs.washington.edu",
       "icon": "faEnvelope"
     },
-    // {
-    //   "type": "link",
-    //   "content": "phoenix-meadowlark.github.io",
-    //   "icon": "faGlobe"
-    // },
+    {
+      "type": "link",
+      "content": "phoenix-meadowlark.github.io",
+      "icon": "faGlobe"
+    },
     {
       "type": "link",
       "content": "linkedin.com/in/phoenix-meadowlark",
