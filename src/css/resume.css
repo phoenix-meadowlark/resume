@@ -389,7 +389,7 @@ li {
   grid-area: h-left;
   z-index: 99;
   background-color: #01b4bc;
-  box-shadow: 4px 4px 8px -4px #0000000e;
+  box-shadow: 4px 4px 8px -4px #00000030;
   text-align: right;
   font-family: "Raleway"; }
   #headerLeft .name {
@@ -432,7 +432,7 @@ li {
 
 #bodyRight {
   grid-area: b-right;
-  box-shadow: -4px -3px 8px -4px #0000000e; }
+  box-shadow: -4px -3px 8px -4px #00000030; }
 
 section {
   line-height: 1.7rem;
