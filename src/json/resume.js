@@ -46,7 +46,7 @@ export default {
     {
       "header": "Knowledgeable",
       "content": [
-        "Statistics",
+        "C/C++",
         "Research",
         "UX Design",
         "Leadership",
@@ -82,7 +82,7 @@ export default {
     "content": [
       {
         "primary": "NeurIPS; Poster Presentation & Talk",
-        "secondary": "Google, Queer in AI; 2019"
+        "secondary": "Google Research, Queer in AI; 2019"
       },
       {
         "primary": "Grace Hopper Celebration",
@@ -156,7 +156,7 @@ export default {
         {
           "primary": {
             "type": "visual",
-            "content": "Google AI / Cerebra"
+            "content": "Google Research"
           },
           "secondary": {
             "type": "link",
@@ -253,8 +253,8 @@ export default {
         {
           "primary": {
             "type": "link",
-            "content": "Google AI",
-            "link": "https://ai.google/",
+            "content": "Google Research",
+            "link": "https://research.google/",
           },
           "secondary": {
             "type": "visual",
