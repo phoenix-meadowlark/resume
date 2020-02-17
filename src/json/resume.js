@@ -166,7 +166,7 @@ export default {
         }
       ],
       "description": [
-        "Informed survey design of and analyzed 53,216 responses from a series of Mechanical Turk surveys including questions about presentation and personal identity",
+        "Analyzed 53,216 responses from a series of Mechanical Turk surveys including questions about presentation and personal identity",
         "Quantitatively demonstrated the infeasibility of automatic gender recognition for approximately 5% of the US population",
         // "Demonstrated that only asking respondents if they identify with L, G, B or T excludes nearly half of all queer identified people",
         "Presented a poster and talk about our work at NeurIPS 2019"
