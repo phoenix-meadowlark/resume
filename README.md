@@ -17,4 +17,7 @@ npm run start
 
 # If modifying styling.
 npm run style
+
+# Deploy changes.
+npm run build && npm run deploy
 ```
