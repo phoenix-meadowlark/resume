@@ -1,16 +1,16 @@
 export default {
   "firstName": "Phoenix",
   "lastName": "Meadowlark",
-  "title": "Seeking Positions in ML Research & Engineering",
+  "title": "Software Engineer & Researcher",
 
   "contactPoints": [
+    // {
+    //   "type": "visual",
+    //   "content": "",
+    //   "icon": "faPhone"
+    // },
     {
-      "type": "visual",
-      "content": "1-360-325-1663",
-      "icon": "faPhone"
-    },
-    {
-      "type": "visual",
+      "type": "link",
       "content": "phoenix@cs.washington.edu",
       "icon": "faEnvelope"
     },
@@ -33,35 +33,34 @@ export default {
 
   "skills": {
     "header": "Skills",
-    "content": [{
-      "header": "Strong",
-      "content": [
-        "Java",
-        "Python",
-        "PyTorch",
-        "TensorFlow",
-        "Data Visualization",
-      ]
-    },
-    {
-      "header": "Knowledgeable",
-      "content": [
-        "C/C++",
-        "Research",
-        "UX Design",
-        "Leadership",
-        "Professional Writing",
-      ]
-    },
-    {
-      "header": "Tools",
-      "content": [
-        "AllenNLP",
-        "PyTorch",
-        "Tensorflow",
-        "React",
-      ]
-    }
+    "content": [
+      {
+        "header": "Strong",
+        "content": [
+          "Java",
+          "Python",
+          "Research",
+          "Data Visualization",
+        ]
+      },
+      {
+        "header": "Knowledgeable",
+        "content": [
+          "C/C++",
+          "JavaScript",
+          "Leadership",
+          "Academic Writing",
+        ]
+      },
+      {
+        "header": "Tools",
+        "content": [
+          "Docker",
+          "Git",
+          "PyTorch",
+          "TensorFlow",
+        ]
+      }
     ]
   },
 
@@ -70,7 +69,6 @@ export default {
     "content": [
       "Creatively frames and solves problems",
       "Passionate learner who quickly adapts to novel challenges",
-      // "Efficiency oriented, with impeccable attention to detail",
       "Strong speaker across many audiences",
       "Empathetic listener dedicated to elevating their coworkers and peers",
       "Driven to affect social good"
@@ -168,41 +166,9 @@ export default {
       "description": [
         "Analyzed 53,216 responses from a series of Mechanical Turk surveys including questions about presentation and personal identity",
         "Quantitatively demonstrated the infeasibility of automatic gender recognition for approximately 5% of the US population",
-        // "Demonstrated that only asking respondents if they identify with L, G, B or T excludes nearly half of all queer identified people",
         "Presented a poster and talk about our work at NeurIPS 2019"
       ]
     },
-
-    // "policyGradientImplementationTutorial": {
-    //   "title": "Tutorial: RL Policy Gradient Optimization in PyTorch",
-    //   "date": {
-    //     "start": {
-    //       "month": "",
-    //       "year": ""
-    //     },
-    //     "end": {
-    //       "month": "3",
-    //       "year": "2019"
-    //     }
-    //   },
-    //   "info": [
-    //     {
-    //       "primary": {
-    //         "type": "visual",
-    //         "content": "Python, PyTorch",
-    //       },
-    //       "secondary": {
-    //         "type": "link",
-    //         "content": "Available On GitHub",
-    //         "link": "https://github.com/phoenix-meadowlark/torch-rl-tutorials/tree/master/vanilla-policy-gradient",
-    //       },
-    //     }
-    //   ],
-    //   "description": [
-    //     "Wrote an implementation focused tutorial on policy gradient optimization",
-    //     "Developed code that was as easy to understand as possible by being explicit about what it was doing at each step, and how it was doing it"
-    //   ]
-    // },
 
     "cnt": {
       "title": "Computational Neuroethics Researcher",
@@ -212,8 +178,8 @@ export default {
           "year": "2018"
         },
         "end": {
-          "month": "",
-          "year": ""
+          "month": "12",
+          "year": "2019"
         }
       },
       "info": [
@@ -230,14 +196,41 @@ export default {
         }
       ],
       "description": [
-        "Researches the ethical considerations of incorporating intelligent, adaptive machinery into brain-machine interfaces",
-        // "Currently, my colleague and I are developing a manuscript canvasing these details as they arise in using affect detection to automate the tuning of deep-brain stimulation",
-        // "Researches the ethical implications of using neural biometrics in machine learning systems for the automated control of brain machine interfaces",
-        // "Currently developing a manuscript canvasing these concerns as they arise in the case of using machine affect detection as a biometric"
+        "Researched the ethical considerations of incorporating intelligent, adaptive machinery into brain-machine interfaces",
       ]
     },
 
-    "google": {
+    "googleIREE": {
+      "title": "Software Engineer",
+      "date": {
+        "start": {
+          "month": "3",
+          "year": "2020"
+        },
+        "end": {
+          "month": "",
+          "year": ""
+        }
+      },
+      "info": [
+        {
+          "primary": {
+            "type": "link",
+            "content": "Google Research – IREE",
+            "link": "https://github.com/google/iree",
+          },
+          "secondary": {
+            "type": "visual",
+            "content": "Seattle, WA",
+          }
+        }
+      ],
+      "description": [
+        "Develops infrastructure for an experimental machine learning compiler"
+      ]
+    },
+
+    "googleInternship": {
       "title": "Software Engineering & Research Intern",
       "date": {
         "start": {
@@ -296,7 +289,7 @@ export default {
       ],
       "description": [
         "Funded by the NASA Space Grant Consortium Summer Undergrad Research Program to research the properties of a quantum bit candidate",
-        "Enabled automatic data collection of the quantum optic states of 1100 atoms in a 10000 µm² section of diamond, saving 88 hours/week of work",
+        // "Enabled automatic data collection of the quantum optic states of 1100 atoms in a 10000 µm² section of diamond, saving 88 hours/week of work",
       ]
     },
 

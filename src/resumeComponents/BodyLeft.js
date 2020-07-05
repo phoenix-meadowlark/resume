@@ -17,7 +17,7 @@ class BodyLeft extends Component {
           <h2 className="sectionTitle">Volunteer Work</h2>
 
           <div className="affiliations">
-            
+
             <Affiliation affiliation={resume.affiliations.qpp} />
             <Affiliation affiliation={resume.affiliations.divCom} />
 
@@ -62,8 +62,8 @@ class Skills extends Component {
 
         <TerseList input={resume.skills.content[0]}/>
         <TerseList input={resume.skills.content[1]}/>
-        {/* <InlineList input={resume.skills.content[2]}/> */}
-        
+        <InlineList input={resume.skills.content[2]}/>
+
       </section>
     );
   }

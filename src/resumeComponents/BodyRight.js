@@ -11,26 +11,25 @@ class BodyRight extends Component {
           <h2 className="sectionTitle">Experience</h2>
 
           <div className="affiliations">
-            <Affiliation affiliation={resume.affiliations.google} />
+          <Affiliation affiliation={resume.affiliations.googleIREE} />
+            <Affiliation affiliation={resume.affiliations.googleInternship} />
             <Affiliation affiliation={resume.affiliations.cnt} />
             <Affiliation affiliation={resume.affiliations.opto} />
 
           </div>
         </section>
-        
+
         <section>
           <h2 className="sectionTitle">Projects</h2>
 
           <div className="affiliations">
             <Affiliation affiliation={resume.affiliations.lostInTheMargins} />
-            {/* <Affiliation affiliation={resume.affiliations.policyGradientImplementationTutorial} /> */}
-            {/* <Affiliation affiliation={resume.affiliations.markdownLanguage} /> */}
           </div>
         </section>
 
         <section>
           <h2 className="sectionTitle">Education</h2>
-          
+
           <div className="affiliations">
 
             <Affiliation affiliation={resume.affiliations.uw}/>
@@ -42,7 +41,7 @@ class BodyRight extends Component {
           <h2 className="sectionTitle">Volunteer Work</h2>
 
           <div className="affiliations">
-            
+
             <Affiliation affiliation={resume.affiliations.qpp} />
             <Affiliation affiliation={resume.affiliations.divCom} />
 
